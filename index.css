@@ -1,0 +1,94 @@
+.container{
+
+    width: 1200px;
+     margin: 0 auto;
+}
+/* {
+    border: 1px solid limegreen;
+    background-color: rgba(116, 116, 116, 0.1);
+  }
+  body {
+    margin: 0;
+  }
+*/
+.üstbaşlık{
+
+font-size: larger;
+
+}
+.üstbaşlık ul li {
+
+    list-style-type: none;
+   
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+    display: inline-block;
+    
+    text-align: start;
+    font-size: 20px;
+}
+.resimyazı {
+    font-size: larger;
+    display: flex;
+    gap : 30px;
+  
+}
+.resimyazı img{
+
+    padding-bottom: 50px;
+}
+.yazı{
+    gap: 50px;
+    text-align: center;
+}
+.yazı p{
+    width: 300px;
+}
+.yazı button{
+width: 200px;
+padding: 15px 0;
+border-radius: 35px;
+margin: 20px;
+text-align: center;
+color: black;
+cursor: pointer;
+}
+.üstresim{
+    
+    
+    display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  
+  gap: 50px;
+}
+.üstresim img {
+ width: 350px;
+ height: 350px;
+ 
+}
+.altresim{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.altresim img{
+    width: 350px;
+ height: 350px;
+   
+}   
+.sondurum{
+text-align: center;
+}
+.sondurum button{
+width: 200px;
+padding: 15px 0;
+border-radius: 35px;
+margin: 20px;
+text-align: center;
+color: black;
+cursor: pointer;
+}
