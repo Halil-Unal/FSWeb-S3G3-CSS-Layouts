@@ -17,6 +17,20 @@
         flex-direction: column;
     }
     
+.yazı{
+
+font-size: x-large;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+
+
+}    
+}
+.tümresimler p{
+
+    text-align: center;
+    color: darkblue;
+    font-size: x-large;
 }
 
 h2{
@@ -54,7 +68,7 @@ font-family : 'Times New Roman', Times, serif;
 .resimyazı {
     font-size: larger;
     display: flex;
-    gap : 30px;
+    gap : 50px;
     
 }
 .resimyazı img{
@@ -89,7 +103,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   gap: 50px;
 }
 .üstresim img {
- width: 350px;
+    width: 450px;
  height: 350px;
  
  
@@ -102,19 +116,21 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .altresim img{
-    width: 350px;
+    width: 450px;
  height: 350px;
+ margin: 0;
    
 }   
 .sondurum{
 text-align: center;
+font-size: larger;
 }
 .sondurum button{
 width: 200px;
 padding: 15px 0;
-
+color: yellow;
 margin: 20px;
 text-align: center;
-color: black;
+background-color: darkblue;
 cursor: pointer;
 }
