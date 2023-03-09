@@ -11,6 +11,9 @@
     margin: 0;
   }
 */
+h2{
+    text-align: center;
+}
 .üstbaşlık{
 
 font-size: larger;
@@ -32,7 +35,7 @@ font-size: larger;
     font-size: larger;
     display: flex;
     gap : 30px;
-  
+    
 }
 .resimyazı img{
 
@@ -48,7 +51,7 @@ font-size: larger;
 .yazı button{
 width: 200px;
 padding: 15px 0;
-border-radius: 35px;
+
 margin: 20px;
 text-align: center;
 color: black;
@@ -58,8 +61,8 @@ cursor: pointer;
     
     
     display: flex;
-  align-items: center;
-  padding-bottom: 50px;
+ display: inline-flex;
+
   
   gap: 50px;
 }
@@ -71,7 +74,7 @@ cursor: pointer;
 .altresim{
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
+    
     gap: 50px;
 }
 
@@ -86,7 +89,7 @@ text-align: center;
 .sondurum button{
 width: 200px;
 padding: 15px 0;
-border-radius: 35px;
+
 margin: 20px;
 text-align: center;
 color: black;
