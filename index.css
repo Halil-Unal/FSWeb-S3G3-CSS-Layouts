@@ -1,8 +1,9 @@
 .container{
 
-    width: 1920px;
-    height: 1080px;
-     margin: 10px auto;
+
+   
+
+     margin: 0 auto;
 }
 /* {
     border: 1px solid limegreen;
@@ -12,11 +13,37 @@
     margin: 0;
   }
 */
-@media (max-width: 8000px) {
-    .üstresim img{
-        flex-direction: column;
-    }
+@media only screen and (max-width :800px){
+
+body{
+    background-color: black;
+}
+}
+@media only screen and (min-width : 800px) and (max-width:1200px){
+body{
+    background-color: aqua;
+}
+
+}
+@media only screen and (min-width : 1200px){
+body{
+    background-color: blue;
+ 
+}
+.tümresimler img{
+    gap: 30px;
+    text-align: center;
+
     
+}   
+
+}
+@media only screen and (min-width : 1500px){
+
+body{
+    background-color: white;
+}
+}
 .yazı{
 
 font-size: x-large;
@@ -25,6 +52,9 @@ font-style: italic;
 
 
 }    
+.tümresimler {
+    display: flex;
+    flex-wrap: wrap;
 }
 .tümresimler p{
 
@@ -97,26 +127,32 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     
     
     display: flex;
- display: inline-flex;
+flex-wrap: wrap;
 
   
   gap: 50px;
 }
 .üstresim img {
-    width: 450px;
+    width: 350px;
  height: 350px;
+ display: inline-block;
  
  
 }
+
 .altresim{
     display: flex;
     display: inline-flex;
+  
+    flex-wrap: wrap;
     
+      
+      
     gap: 50px;
 }
 
 .altresim img{
-    width: 450px;
+    width: 350px;
  height: 350px;
  margin: 0;
    
@@ -133,4 +169,10 @@ margin: 20px;
 text-align: center;
 background-color: darkblue;
 cursor: pointer;
+}
+@media (max-width:1400px){
+
+   
+   
+    
 }
